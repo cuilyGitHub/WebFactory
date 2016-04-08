@@ -7,4 +7,12 @@
 
     npm install --global gulp  
 
+# Update NPM packages  
+
+    npm install vendor/gulp-html-extract -force  
+
+# Debug your Gulp  
+
+    node debug $(which gulp) default  
+
 
