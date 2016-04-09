@@ -5,7 +5,11 @@
 
 # Install Gulp  
 
-    npm install --global gulp  
+    sudo npm install --global gulp  
+
+# Install Bower  
+
+    sudo npm install --global bower
 
 # Update NPM packages  
 
