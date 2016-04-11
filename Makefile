@@ -11,7 +11,7 @@ build_zepto:
 	cp $(VENDOR_PATH)/zepto/dist/* release/js/
 
 build_angular:
-	bower install angular
+	bower install angular --allow-root
 	mkdir -p release/js
 	cp bower_components/angular/angular.js release/js/
 	cp bower_components/angular/angular.min.js release/js/
